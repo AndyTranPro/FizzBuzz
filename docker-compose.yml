@@ -12,7 +12,6 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ./backend/FooBooLooGameAPI/init/setup.sql:/docker-entrypoint-initdb.d/setup.sql
       - pgdata:/var/lib/postgresql/data
 
   backend:
@@ -26,6 +25,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__DefaultConnection=Host=db;Database=foobooloo-db;Username=postgres;Password=postgres
+    command: bash -c "dotnet ef database update && dotnet run"
 
   frontend:
     build:

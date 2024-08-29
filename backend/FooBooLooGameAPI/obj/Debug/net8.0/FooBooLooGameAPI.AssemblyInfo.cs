@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FooBooLooGameAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a98eec226db95caa5f1791053e0acf8c08275bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cdff24bce2c73f2e4c0d0cd5055d32373b6cb65")]
 [assembly: System.Reflection.AssemblyProductAttribute("FooBooLooGameAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FooBooLooGameAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
